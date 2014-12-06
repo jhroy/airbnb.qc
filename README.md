@@ -3,7 +3,7 @@ airbnb.qc
 
 Données sur les logements offerts sur AirBnb au Québec
 
-Ce répertoire contient 2 scripts en ruby et les 2 fichiers produits par ces scripts:
+Ce répertoire contient 2 scripts et les 2 fichiers produits par ces scripts:
 
 **air1.rb**
   * Ce premier script fait une recherche sur AirBnb.ca en demandant tous les logements se trouvant au Québec.
