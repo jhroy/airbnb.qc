@@ -1,7 +1,7 @@
 airbnb.qc
 =========
 
-Données sur les logements offerts sur AirBnb au Québec
+:rocket: Données sur les logements offerts sur AirBnb au Québec
 
 Ce répertoire contient 2 scripts et les 2 fichiers produits par ces scripts:
 
