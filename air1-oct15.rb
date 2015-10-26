@@ -8,7 +8,7 @@ listeURL = []
 appTotal = 0
 fichTxt = "airbnbAdresses-oct2015.txt"
 
-iMin = 245
+iMin = 10
 iMax = 1500
 
 total = 0
