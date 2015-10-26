@@ -43,4 +43,4 @@ L'extraction d'octobre 2015 a nécessité 3 scripts et produit plusieurs fichier
 
 **air3-oct15.rb**
 * Ce 3e script extrait ensuite les informations contenues dans chacun des fichiers HTML téléchargés par le 2e script et les place dans un fichier CSV final.
-* Il géolocalise chaque inscription comme je l'avais fait en décembre 2014, ce qui permet ensuite de nettoyer le CSV pour en retirer les inscriptions hors Québec. Ce fichier nettoyé est **airbnb-oct15-nettoye.csv**.
+* Il géolocalise chaque inscription comme je l'avais fait en décembre 2014, ce qui permet ensuite de nettoyer le CSV pour en retirer les inscriptions hors Québec. Ce fichier nettoyé est **airbnb-oct15-nettoye.csv**. Il contient **6407 logements**.
