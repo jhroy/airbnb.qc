@@ -29,4 +29,18 @@ L'extraction effectuée en décembre 2014 a nécessité 2 scripts et produits 2 
 
 ###Octobre 2015
 
-L'extraction d'octobre 2015 a réutilisé
+L'extraction d'octobre 2015 a nécessité 3 scripts et produit plusieurs fichiers TXT et CSV, mais je ne vais en donner qu'un seul, le dernier.
+
+**air1-oct15.rb**
+ * Ce premier script effectue une recherche dans tous les logements annoncés au Québec sur Airbnb.ca
+ * Il procède par tranche de prix demandé, c'est-à-dire qu'il recherche tous les logements pour lesquels on demande de 10$ à 11$ la nuit, puis de 11$ à 12$, puis de 12$ à 13$, et ainsi de suite jusqu'au prix maximum de 1500$, seuil au-delà duquel il y a assez peu de logements pour pouvoir les extraire en une seule requête demandant les prix de 1500$ et plus.
+ * Il met toutes les URL trouvées dans un fichier texte.
+
+**air2-oct15.rb**
+* Ce 2e script part d'un fichier CSV créé à partir du fichier texte produit par le premier script.
+* Il prend chaque code de logement Airbnb et télécharge dans un dossier le fichier HTML de la page du logement en question à l'aide de la commande ```wget```.
+* Pour minimiser les risques de rejet par Airbnb, il utilise 2 tactiques: une pause aléatoire (entre 0 et 10 secondes) à chaque requête sur le serveur et l'envoi d'entêtes changeant aléatoirement.
+
+**air3-oct15.rb**
+* Ce 3e script extrait ensuite les informations contenues dans chacun des fichiers HTML téléchargés par le 2e script et les place dans un fichier CSV final.
+* Il géolocalise chaque inscription comme je l'avais fait en décembre 2014, ce qui permet ensuite de nettoyer le CSV pour en retirer les inscriptions hors Québec. Ce fichier nettoyé est **airbnb-oct2015-nettoye.csv**.
