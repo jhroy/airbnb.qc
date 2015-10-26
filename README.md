@@ -1,9 +1,11 @@
 airbnb.qc
 =========
 
-:rocket: Données sur les logements offerts sur AirBnb au Québec
+:rocket: Données sur les logements offerts sur AirBnb au Québec extraits à deux occasions, d'abord en décembre 2014, puis en octobre 2015.
 
-Ce répertoire contient 2 scripts et les 2 fichiers produits par ces scripts:
+###Décembre 2014
+
+L'extraction effectuée en décembre 2014 a nécessité 2 scripts et produits 2 fichiers: 
 
 **air1.rb**
   * Ce premier script fait une recherche sur AirBnb.ca en demandant tous les logements se trouvant au Québec.
@@ -24,3 +26,7 @@ Ce répertoire contient 2 scripts et les 2 fichiers produits par ces scripts:
   * Le CSV contient, notamment, les coordonnées (latitude, longitude) du logement, le titre de la fiche, l'URL, la photo principale, le prix, la capacité, la description et diverses infos sur le locateur.
 
 [Résultat final sur CartoDB](http://cdb.io/1yob6Nn)
+
+###Octobre 2015
+
+L'extraction d'octobre 2015 a réutilisé
