@@ -44,3 +44,9 @@ L'extraction d'octobre 2015 a nécessité 3 scripts et produit plusieurs fichier
 **air3-oct15.rb**
 * Ce 3e script extrait ensuite les informations contenues dans chacun des fichiers HTML téléchargés par le 2e script et les place dans un fichier CSV final.
 * Il géolocalise chaque inscription comme je l'avais fait en décembre 2014, ce qui permet ensuite de nettoyer le CSV pour en retirer les inscriptions hors Québec. Ce fichier nettoyé est **airbnb-oct15-nettoye.csv**. Il contient **6407 logements**.
+
+[Résultat final sur CartoDB](http://cdb.io/1jKhkaT).
+
+####Ajout, 28 décembre 2015
+
+[Florent Daudens](http://fdaudens.com/), journaliste à Radio-Canada.ca, a réalisé [une comparaison semblable, mais arrivant à des conclusions radicalement différentes](http://ici.radio-canada.ca/regions/montreal/2015/12/04/004-hausse-annonces-location-appartements-tourisme-airbnb-loi-quebec-carte.shtml). Il a partagé avec moi son fichier de résultats, que je dépose ici en lui donnant le nom de **air_florent.csv**.
