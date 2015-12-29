@@ -49,4 +49,4 @@ L'extraction d'octobre 2015 a nécessité 3 scripts et produit plusieurs fichier
 
 ####Ajout, 28 décembre 2015
 
-[Florent Daudens](http://fdaudens.com/), journaliste à Radio-Canada.ca, a réalisé [une comparaison semblable, mais arrivant à des conclusions radicalement différentes](http://ici.radio-canada.ca/regions/montreal/2015/12/04/004-hausse-annonces-location-appartements-tourisme-airbnb-loi-quebec-carte.shtml). Il a partagé avec moi son fichier de résultats, que je dépose ici en lui donnant le nom de **air_florent.csv**.
+[Florent Daudens](http://fdaudens.com/), journaliste à Radio-Canada.ca, a réalisé [une comparaison semblable, mais arrivant à des conclusions radicalement différentes](http://ici.radio-canada.ca/regions/montreal/2015/12/04/004-hausse-annonces-location-appartements-tourisme-airbnb-loi-quebec-carte.shtml). Il a partagé avec moi un fichier de résultats provisoires, avant nettoyage, que je dépose ici en lui donnant le nom de **air_florent.csv**.
