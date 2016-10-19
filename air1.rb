@@ -78,3 +78,5 @@ File.open("airbnbAdresses.txt", "w+") do |f|
 
 	end
 end
+
+# Bonjour, chers étudiants du cours EDM5240!
