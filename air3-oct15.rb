@@ -108,3 +108,4 @@ CSV.open("airbnb-oct2015.csv", "wb") do |csv|
 		csv << hash.values
 	end
 end
+### fin
